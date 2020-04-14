@@ -2,10 +2,24 @@
 //
 
 #include <iostream>
-
+#include <set>
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    
+    set<int> st;
+    st.insert(1);
+    st.insert(3);
+    st.insert(100);
+    st.insert(40);
+    pair<set<int>::iterator,bool>  res=st.insert(40);
+    if (res.second == false)
+        cout << "insert false" << endl;
+    
+    set<int>::iterator it;
+    for (it = st.begin(); it != st.end(); it++)
+        cout << *it << endl;
+    
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
