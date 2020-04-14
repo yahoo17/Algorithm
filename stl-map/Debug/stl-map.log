@@ -1,0 +1,8 @@
+﻿  stl-map.cpp
+C:\Users\DELL\source\repos\stl-map\stl-map.cpp(19,27): warning C4305: “=”: 从“__int64”到“int”截断
+C:\Users\DELL\source\repos\stl-map\stl-map.cpp(19,15): warning C4309: “=”: 截断常量值
+C:\Users\DELL\source\repos\stl-map\stl-map.cpp(22,28): warning C4305: “=”: 从“__int64”到“int”截断
+C:\Users\DELL\source\repos\stl-map\stl-map.cpp(22,16): warning C4309: “=”: 截断常量值
+C:\Users\DELL\source\repos\stl-map\stl-map.cpp(25,29): warning C4305: “=”: 从“__int64”到“int”截断
+C:\Users\DELL\source\repos\stl-map\stl-map.cpp(25,16): warning C4309: “=”: 截断常量值
+  stl-map.vcxproj -> C:\Users\DELL\source\repos\stl-map\Debug\stl-map.exe
