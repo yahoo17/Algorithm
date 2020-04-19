@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <map>
+#include <set>
 #include <string>
 using namespace std;
 struct Studentinfo
@@ -12,6 +13,7 @@ struct Studentinfo
 };
 int main()
 {
+
     map<int, Studentinfo> temp;
     //排序的容器,
     Studentinfo  info;
