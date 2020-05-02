@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "map给定一个保存员工信息的数据结构，它包含了员工唯一的id，重要度 和 直系下属的id。", "map给定一个保存员工信息的数据结构，它包含了员工唯一的id，重要度 和 直系下属的id。.vcxproj", "{474A642C-84FD-4E89-960F-614861965B2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{474A642C-84FD-4E89-960F-614861965B2F}.Debug|x64.ActiveCfg = Debug|x64
+		{474A642C-84FD-4E89-960F-614861965B2F}.Debug|x64.Build.0 = Debug|x64
+		{474A642C-84FD-4E89-960F-614861965B2F}.Debug|x86.ActiveCfg = Debug|Win32
+		{474A642C-84FD-4E89-960F-614861965B2F}.Debug|x86.Build.0 = Debug|Win32
+		{474A642C-84FD-4E89-960F-614861965B2F}.Release|x64.ActiveCfg = Release|x64
+		{474A642C-84FD-4E89-960F-614861965B2F}.Release|x64.Build.0 = Release|x64
+		{474A642C-84FD-4E89-960F-614861965B2F}.Release|x86.ActiveCfg = Release|Win32
+		{474A642C-84FD-4E89-960F-614861965B2F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6D2CF68-0A12-437C-ABA9-9F4440E7F445}
+	EndGlobalSection
+EndGlobal
