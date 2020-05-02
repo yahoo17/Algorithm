@@ -1,0 +1,3 @@
+﻿  set.cpp
+C:\Users\DELL\Desktop\gitLB\Algorithm\STL\set\set.cpp(32,36): warning C4930: “std::multiset<const char *,strLess,std::allocator<const char *>> s2(strLess)”: 未调用原型函数(是否是有意用变量定义的?)
+  set.vcxproj -> C:\Users\DELL\Desktop\gitLB\Algorithm\STL\set\Debug\set.exe
