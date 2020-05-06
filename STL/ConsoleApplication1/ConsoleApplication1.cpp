@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
-
+#include <list>
+using namespace  std;
 int main()
 {
+    int  array[130];
+    memset(array, 0, sizeof(array));
+    cout << int('a') << "\n";
+    array[int('a')] = 1;
+    for (int i = 0; i < 130; i++)
+        cout << array[i] << " ";
     std::cout << "Hello World!\n";
+    list<int>  temp;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
