@@ -43,6 +43,7 @@ String::String(const char * str)
         int length = strlen(str);
         m_data = new char[length + 1];
         strcpy(m_data, str);
+       
         
     }
 
@@ -56,7 +57,8 @@ String::String(const String& other)
     }
     else
     {
-
+        m_data = new char[strlen(other.m_data) + 1];
+        strcpy(m_data, other.m_data);
     }
 
 }
@@ -143,13 +145,13 @@ int main()
 {
     
     String a("my test String");
-
+    String b(a);
     String c("a");
     String d("b");
-    String e = c + d;
-    a.print();
  
-    e.print();
+    a.print();
+    b.print();
+   
     d.print();
 
     
